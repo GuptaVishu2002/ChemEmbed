@@ -1,6 +1,6 @@
 # ChemEmbed
 
-Code to train and run [ChemEmbed](https://github.com/massspecdl/ChemEmbed) on our benchmark splits. Adapted from the original repo.
+Code to train and run [ChemEmbed](https://github.com/massspecdl/ChemEmbed). Adapted from the paper Faizan-Khan, Muhammad, et al. "ChemEmbed: a deep learning framework for metabolite identification using enhanced MS/MS data and multidimensional molecular embeddings." Briefings in Bioinformatics 27.1 (2026): bbag054.
 
 ChemEmbed is a 1D CNN that predicts a 300-d Mol2vec embedding from an MS/MS spectrum. Candidates are ranked by cosine similarity between the predicted embedding and each candidate's Mol2vec embedding.
 
